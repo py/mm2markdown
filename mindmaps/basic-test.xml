@@ -1,212 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?><map version="freeplane 1.2.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Root" COLOR="#000000" STYLE="bubble" MAX_WIDTH="600" MIN_WIDTH="1" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1387129340081">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<hook NAME="MapStyle">
-    <properties show_note_icons="true"/>
-
-<map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" POSITION="right">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<stylenode LOCALIZED_TEXT="default" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.floating" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</stylenode>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" POSITION="right">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="Dialog" SIZE="10" BOLD="true" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="Dialog" SIZE="10" BOLD="true" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="Dialog" SIZE="10" BOLD="true" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.important" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<icon BUILTIN="yes"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</stylenode>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" POSITION="right">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="18" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="16" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="14" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</stylenode>
-</stylenode>
-</stylenode>
-</map_styles>
-</hook>
-<node TEXT="Section 1" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" POSITION="right" ID="ID_1937520074" CREATED="1387129340614" MODIFIED="1387129350693">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<node TEXT="Topic 1" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" ID="ID_607425089" CREATED="1387129351829" MODIFIED="1387129599626">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      This is a sentence.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <u>Underlined sentence.</u>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <i>Italics!</i>
-    </p>
-    <p>
-      <b>This is bold!</b>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      * Some
-    </p>
-    <p>
-      * Bullet
-    </p>
-    <p>
-      * Points
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      1. an
-    </p>
-    <p>
-      1. ordered
-    </p>
-    <p>
-      1. list
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="Topic 2" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" ID="ID_658584224" CREATED="1387129361269" MODIFIED="1387129363031">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</node>
-<node TEXT="Topic 3" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" ID="ID_184446365" CREATED="1387129363315" MODIFIED="1387129364719">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</node>
-</node>
-<node TEXT="Section 2" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" POSITION="left" ID="ID_1501499118" CREATED="1387129340614" MODIFIED="1387129608167">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<node TEXT="Topic 1" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" ID="ID_81771131" CREATED="1387129351829" MODIFIED="1387129599626">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      This is a sentence.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <u>Underlined sentence.</u>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <i>Italics!</i>
-    </p>
-    <p>
-      <b>This is bold!</b>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      * Some
-    </p>
-    <p>
-      * Bullet
-    </p>
-    <p>
-      * Points
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      1. an
-    </p>
-    <p>
-      1. ordered
-    </p>
-    <p>
-      1. list
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Topic 2" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" ID="ID_1501450355" CREATED="1387129361269" MODIFIED="1387129363031">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</node>
-<node TEXT="Topic 3" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="1" ID="ID_47195846" CREATED="1387129363315" MODIFIED="1387129364719">
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</node>
-</node>
-</node>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="freeplane 1.2.0">
+  <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+  <node COLOR="#000000" CREATED="1283093380553" FOLDED="false" ID="ID_1723255651" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129340081" STYLE="bubble" TEXT="Root">
+    <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+    <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+    <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+    <hook NAME="MapStyle">
+      <properties show_note_icons="true"/>
+      <map_styles>
+        <stylenode COLOR="#000000" LOCALIZED_TEXT="styles.root_node" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+          <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+          <stylenode COLOR="#000000" LOCALIZED_TEXT="styles.predefined" MAX_WIDTH="600" MIN_WIDTH="1" POSITION="right" STYLE="as_parent">
+            <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            <stylenode COLOR="#000000" LOCALIZED_TEXT="default" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            </stylenode>
+            <stylenode COLOR="#000000" LOCALIZED_TEXT="defaultstyle.details" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            </stylenode>
+            <stylenode COLOR="#000000" LOCALIZED_TEXT="defaultstyle.note" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            </stylenode>
+            <stylenode COLOR="#000000" LOCALIZED_TEXT="defaultstyle.floating" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            </stylenode>
+          </stylenode>
+          <stylenode COLOR="#000000" LOCALIZED_TEXT="styles.user-defined" MAX_WIDTH="600" MIN_WIDTH="1" POSITION="right" STYLE="as_parent">
+            <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            <stylenode COLOR="#18898b" LOCALIZED_TEXT="styles.topic" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="fork">
+              <font BOLD="true" ITALIC="false" NAME="Dialog" SIZE="10"/>
+            </stylenode>
+            <stylenode COLOR="#cc3300" LOCALIZED_TEXT="styles.subtopic" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="fork">
+              <font BOLD="true" ITALIC="false" NAME="Dialog" SIZE="10"/>
+            </stylenode>
+            <stylenode COLOR="#669900" LOCALIZED_TEXT="styles.subsubtopic" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="true" ITALIC="false" NAME="Dialog" SIZE="10"/>
+            </stylenode>
+            <stylenode COLOR="#000000" LOCALIZED_TEXT="styles.important" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <icon BUILTIN="yes"/>
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            </stylenode>
+          </stylenode>
+          <stylenode COLOR="#000000" LOCALIZED_TEXT="styles.AutomaticLayout" MAX_WIDTH="600" MIN_WIDTH="1" POSITION="right" STYLE="as_parent">
+            <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            <stylenode COLOR="#000000" LOCALIZED_TEXT="AutomaticLayout.level.root" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="18"/>
+            </stylenode>
+            <stylenode COLOR="#0033ff" LOCALIZED_TEXT="AutomaticLayout.level,1" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="16"/>
+            </stylenode>
+            <stylenode COLOR="#00b439" LOCALIZED_TEXT="AutomaticLayout.level,2" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="14"/>
+            </stylenode>
+            <stylenode COLOR="#990000" LOCALIZED_TEXT="AutomaticLayout.level,3" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="12"/>
+            </stylenode>
+            <stylenode COLOR="#111111" LOCALIZED_TEXT="AutomaticLayout.level,4" MAX_WIDTH="600" MIN_WIDTH="1" STYLE="as_parent">
+              <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+            </stylenode>
+          </stylenode>
+        </stylenode>
+      </map_styles>
+    </hook>
+    <node COLOR="#000000" CREATED="1387129340614" ID="ID_1937520074" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129350693" POSITION="right" STYLE="as_parent" TEXT="Section 1">
+      <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+      <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+      <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+      <node COLOR="#000000" CREATED="1387129351829" ID="ID_607425089" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129599626" STYLE="as_parent" TEXT="Topic 1">
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+        <richcontent TYPE="NOTE">
+          <html>
+            <head/>
+            <body>
+              <p>This is a sentence.</p>
+              <p/>
+              <p>
+                <u>Underlined sentence.</u>
+              </p>
+              <p/>
+              <p>
+                <i>Italics!</i>
+              </p>
+              <p>
+                <b>This is bold!</b>
+              </p>
+              <p/>
+              <p>* Some</p>
+              <p>* Bullet</p>
+              <p>* Points</p>
+              <p/>
+              <p>1. an</p>
+              <p>1. ordered</p>
+              <p>1. list</p>
+            </body>
+          </html>
+        </richcontent>
+      </node>
+      <node COLOR="#000000" CREATED="1387129361269" ID="ID_658584224" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129363031" STYLE="as_parent" TEXT="Topic 2">
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+      </node>
+      <node COLOR="#000000" CREATED="1387129363315" ID="ID_184446365" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129364719" STYLE="as_parent" TEXT="Topic 3">
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+      </node>
+    </node>
+    <node COLOR="#000000" CREATED="1387129340614" ID="ID_1501499118" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129608167" POSITION="left" STYLE="as_parent" TEXT="Section 2">
+      <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+      <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+      <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+      <node COLOR="#000000" CREATED="1387129351829" ID="ID_81771131" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129599626" STYLE="as_parent" TEXT="Topic 1">
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+        <richcontent TYPE="NOTE">
+          <html>
+            <head/>
+            <body>
+              <p>This is a sentence.</p>
+              <p/>
+              <p>
+                <u>Underlined sentence.</u>
+              </p>
+              <p/>
+              <p>
+                <i>Italics!</i>
+              </p>
+              <p>
+                <b>This is bold!</b>
+              </p>
+              <p/>
+              <p>* Some</p>
+              <p>* Bullet</p>
+              <p>* Points</p>
+              <p/>
+              <p>1. an</p>
+              <p>1. ordered</p>
+              <p>1. list</p>
+            </body>
+          </html>
+        </richcontent>
+      </node>
+      <node COLOR="#000000" CREATED="1387129361269" ID="ID_1501450355" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129363031" STYLE="as_parent" TEXT="Topic 2">
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+      </node>
+      <node COLOR="#000000" CREATED="1387129363315" ID="ID_47195846" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387129364719" STYLE="as_parent" TEXT="Topic 3">
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
+        <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>
+      </node>
+    </node>
+  </node>
 </map>

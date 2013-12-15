@@ -11,4 +11,16 @@ My test xsl to understand freeplane xml structure.
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="text" indent="no"/>
 
+	<!-- The root template -->
+	<xsl:template match="/">
+		<xsl:apply-templates />
+	</xsl:template>	
+
+	<!-- The map template -->
+<!-- 	<xsl:template match="/map">
+		<xsl:apply-templates select="node"/>
+	</xsl:template> -->
+
+
+
 </xsl:stylesheet> 
