@@ -1,7 +1,7 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Root" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1387129340081" STYLE="bubble"><hook NAME="MapStyle">
-    <properties show_note_icons="true"/>
+<node TEXT="Root" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1387487183018" STYLE="bubble"><hook NAME="MapStyle">
+    <properties show_note_icons="true" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -50,6 +50,9 @@
 </stylenode>
 </map_styles>
 </hook>
+<attribute NAME="Title" VALUE="Test map title"/>
+<attribute NAME="Author" VALUE="Charles Dickens"/>
+<attribute NAME="Date" VALUE="12/19/13" OBJECT="org.freeplane.features.format.FormattedDate|2013-12-19T00:00-0600|date"/>
 <node TEXT="Section 1" POSITION="right" ID="ID_1937520074" CREATED="1387129340614" MODIFIED="1387129350693">
 <node TEXT="Topic 1" ID="ID_607425089" CREATED="1387129351829" MODIFIED="1387129599626"><richcontent TYPE="NOTE">
 
@@ -102,7 +105,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Topic 2" ID="ID_658584224" CREATED="1387129361269" MODIFIED="1387129363031"/>
