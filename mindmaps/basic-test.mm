@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1387572427777" STYLE="bubble"><hook NAME="MapStyle">
+<node TEXT="" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1387574258183" STYLE="bubble"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -50,11 +50,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<attribute NAME="Title" VALUE="Test map title"/>
+<attribute_layout NAME_WIDTH="38" VALUE_WIDTH="268"/>
+<attribute NAME="Title" VALUE="Mindmaps to Markdown: Flattening the Hierarchy"/>
 <attribute NAME="Author" VALUE="Charles Dickens"/>
 <attribute NAME="Date" VALUE="12/19/13" OBJECT="org.freeplane.features.format.FormattedDate|2013-12-19T00:00-0600|date"/>
-<node TEXT="Section 1" POSITION="right" ID="ID_1937520074" CREATED="1387129340614" MODIFIED="1387129350693">
-<node TEXT="Topic 1" ID="ID_607425089" CREATED="1387129351829" MODIFIED="1387129599626"><richcontent TYPE="NOTE">
+<node TEXT="Mindmaps" POSITION="right" ID="ID_1937520074" CREATED="1387129340614" MODIFIED="1387574273385">
+<node TEXT="Intro" ID="ID_607425089" CREATED="1387129351829" MODIFIED="1387574392151"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -62,13 +63,7 @@
   </head>
   <body>
     <p>
-      This is a sentence.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <u>Underlined sentence.</u>
+      Mindmaps are visual ways of representing concepts, information, and the relationships between them.
     </p>
     <p>
       
@@ -83,35 +78,68 @@
       
     </p>
     <p>
-      * Some
-    </p>
-    <p>
-      * Bullet
-    </p>
-    <p>
-      * Points
+      Some open source mindmapping tools:
     </p>
     <p>
       
     </p>
     <p>
-      1. an
+      * Freeplane
     </p>
     <p>
-      1. ordered
+      * Freemind
     </p>
     <p>
-      1. list
+      
+    </p>
+    <p>
+      Let's order some numbers
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1. One
+    </p>
+    <p>
+      1. Two
+    </p>
+    <p>
+      1. Three
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="Topic 2" ID="ID_658584224" CREATED="1387129361269" MODIFIED="1387129363031"/>
-<node TEXT="Topic 3" ID="ID_184446365" CREATED="1387129363315" MODIFIED="1387129364719"/>
+<node TEXT="Body" ID="ID_658584224" CREATED="1387129361269" MODIFIED="1387574438020"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis neque id ipsum fringilla tristique at non velit. Etiam eget eros eget tellus hendrerit lobortis. Curabitur at velit aliquam lacus dapibus vestibulum ac eget lorem. Quisque sed aliquam massa. Aliquam rhoncus neque at lorem ornare pharetra. Maecenas id elementum massa. Morbi pellentesque eros fringilla, pharetra sapien sed, egestas diam. Nullam volutpat convallis pretium. Nam convallis quam sed arcu lobortis consectetur. Praesent vel accumsan lectus, at vestibulum neque. Mauris sit amet elit non enim tristique semper.
+    </p>
+    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
+      Phasellus eu nisl ut massa blandit sollicitudin. Sed elementum, dui quis pulvinar mollis, sem odio semper risus, id interdum nibh quam nec dolor. Fusce consectetur fermentum tincidunt. Etiam eget leo mauris. Curabitur non consequat neque, vitae ultrices ligula. Donec sed justo congue, placerat turpis eget, malesuada magna. Aliquam erat volutpat. Vestibulum feugiat dui ut mauris ornare auctor. Nam dictum ullamcorper tempus. Integer at magna laoreet, sollicitudin neque et, porttitor mauris. Duis et orci rhoncus, adipiscing turpis vitae, fermentum tellus. Praesent vel ante sit amet lectus tempus adipiscing. Cras pharetra augue ac urna cursus placerat.
+    </p>
+    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
+      Integer venenatis sapien id sapien tempor, sit amet lacinia massa ultricies. Vestibulum sagittis fringilla libero, id consequat ante sodales id. Vivamus sem nisi, cursus et eros a, adipiscing fringilla nulla. Ut sagittis arcu nec felis dapibus mollis. Quisque ac tellus semper, rutrum diam id, iaculis lectus. Sed sit amet justo quis sem aliquam venenatis. Maecenas eget commodo ligula, a faucibus odio. Ut malesuada magna ligula, at auctor augue pharetra lacinia. In ut pharetra purus, non tempus dolor. Ut eleifend tellus nec lobortis luctus. Integer vestibulum faucibus nibh, ut ullamcorper leo cursus sed. Suspendisse vitae tortor sit amet massa semper dapibus. Sed eleifend arcu sit amet sapien cursus imperdiet. Vivamus cursus felis sed nunc convallis ultrices. Praesent faucibus sit amet leo ac bibendum.
+    </p>
+    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
+      Integer ac tincidunt lectus, sed mollis arcu. Aliquam ac erat posuere, convallis justo a, dictum massa. Etiam at lorem ante. Suspendisse lacus ligula, convallis sit amet iaculis ac, eleifend et est. In volutpat diam nisl, nec laoreet quam mattis nec. Etiam ac magna tempus, ullamcorper lorem vitae, pharetra velit. Nullam consequat pulvinar faucibus. Sed hendrerit imperdiet pharetra. In at laoreet neque, sed venenatis ligula. Aliquam eu ipsum at ligula malesuada laoreet. Vestibulum quis consequat urna, at posuere diam. Etiam eu magna velit. Etiam tempor velit lacus, at accumsan neque euismod vitae.
+    </p>
+    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
+      Praesent et tortor posuere, pretium massa vitae, facilisis metus. Maecenas vestibulum diam at orci ultricies, id volutpat ligula eleifend. Curabitur eget consequat risus. Pellentesque viverra neque arcu, sed lobortis augue placerat eu. Curabitur ac magna sed lorem malesuada scelerisque. Vivamus dignissim, sapien sed elementum eleifend, tortor velit tempus metus, sed lacinia orci mauris ac ante. Pellentesque vulputate, velit eget vulputate ullamcorper, tellus nisi imperdiet sem, id malesuada ipsum odio pretium risus. Vestibulum a fermentum urna. Cras dapibus pellentesque dolor nec vestibulum. Etiam ut felis eget mauris vehicula vulputate. Mauris pellentesque iaculis luctus. In a nulla nunc. Cras eget lacus lorem. Aenean nunc lorem, tincidunt eget euismod at, pulvinar id est. Vivamus tempor nisi vel urna euismod mattis. In hac habitasse platea dictumst.
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="Section 2" POSITION="left" ID="ID_1501499118" CREATED="1387129340614" MODIFIED="1387129608167">
-<node TEXT="Topic 1" ID="ID_81771131" CREATED="1387129351829" MODIFIED="1387129599626"><richcontent TYPE="NOTE">
+<node TEXT="Conclusion" ID="ID_1603415883" CREATED="1387573162597" MODIFIED="1387574459893"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -119,53 +147,93 @@
   </head>
   <body>
     <p>
-      This is a sentence.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <u>Underlined sentence.</u>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <i>Italics!</i>
-    </p>
-    <p>
-      <b>This is bold!</b>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      * Some
-    </p>
-    <p>
-      * Bullet
-    </p>
-    <p>
-      * Points
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      1. an
-    </p>
-    <p>
-      1. ordered
-    </p>
-    <p>
-      1. list
+      <b>That</b>&#160;is <i>all</i>&#160;I have to say about <b>that</b>.
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
-<node TEXT="Topic 2" ID="ID_1501450355" CREATED="1387129361269" MODIFIED="1387129363031"/>
-<node TEXT="Topic 3" ID="ID_47195846" CREATED="1387129363315" MODIFIED="1387129364719"/>
+</node>
+<node TEXT="Markdown" POSITION="left" ID="ID_1501499118" CREATED="1387129340614" MODIFIED="1387574277082">
+<node TEXT="What is markdown?" ID="ID_81771131" CREATED="1387129351829" MODIFIED="1387574504112"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Markdown is a lightweight syntax for quickly creating structured, formatted documents.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Where is it used?" ID="ID_1501450355" CREATED="1387129361269" MODIFIED="1387574547219"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      All over the place.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      * Github
+    </p>
+    <p>
+      * Other places
+    </p>
+    <p>
+      * Watch out for different syntaxes for different versions
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="How do I use it?" ID="ID_47195846" CREATED="1387129363315" MODIFIED="1387574783788"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      You will most often write documents in markdown, and then either upload them somewhere to be parsed into formatted documents (e.g. Github), or use a tool like Pandoc to convert them to other document types. Pandoc can convert millions of document types to and from each other![^pandoc]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [^pandoc]: Slight exaggeration. See &lt;<a href="http://johnmacfarlane.net/pandoc/index.html">http://johnmacfarlane.net/pandoc/index.html</a>&gt;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </map>
