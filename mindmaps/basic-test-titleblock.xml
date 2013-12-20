@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="freeplane 1.2.0">
   <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-  <node COLOR="#000000" CREATED="1283093380553" FOLDED="false" ID="ID_1723255651" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387487183018" STYLE="bubble" TEXT="Root">
+  <node COLOR="#000000" CREATED="1283093380553" FOLDED="false" ID="ID_1723255651" MAX_WIDTH="600" MIN_WIDTH="1" MODIFIED="1387487183018" STYLE="bubble" TEXT="">
     <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
     <edge COLOR="#808080" STYLE="bezier" WIDTH="thin"/>
     <font BOLD="false" ITALIC="false" NAME="SansSerif" SIZE="10"/>

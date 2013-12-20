@@ -4,19 +4,21 @@
 	
 MINDMAPEXPORTFILTER md;markdown Markdown
 
-v. 0.1
+v. 0.2
 		
 This code released under the GPL. : (http://www.gnu.org/copyleft/gpl.html) 
 Document : mm2markdown.xsl 
 Created	on : 20 November, 2013 
-Author : Lee Hachadoorian Lee.Hachadoorian@gmail.com
-Description: Transforms freeplane mm to markdown md. Nodes become headings
-and subheadings, Notes become paragraphs. Details are not handled. Tested
-with Pandoc-flavored markdown.
+Authors : Lee Hachadoorian Lee.Hachadoorian@gmail.com and Peter Yates pyates@gmail.com
+Description: Transforms freeplane mm to markdown md. 
+* Nodes become headings and subheadings, Notes become paragraphs. 
+*	Attributes of root node become document metadata. 
+*	Details are not handled. 
+* Tested with Pandoc-flavored markdown.
 
 May not work:
-* Title blocks
 * Formatting which requires a specific number of spaces
+* Pandoc markdown style links/references
 
 Please test and suggest improvements to author, or feel free to customize
 while crediting previous authors.
@@ -58,7 +60,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 	<xsl:template match="/map">
 		<xsl:apply-templates select="node"/>
 	</xsl:template>
-	
+
 	<xsl:template match="richcontent">
 		<xsl:if test="@TYPE='DETAILS'">
 			<xsl:text>&#xA;DETAILS: </xsl:text>
@@ -97,8 +99,11 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:variable name="thisid" select="@ID" />
 		<xsl:variable name="target" select="arrowlink/@DESTINATION" />
 		<xsl:choose>
+			<!-- Root node attributes create yaml block -->
 			<xsl:when test="count(ancestor::*) = 1">
-				<xsl:text>%</xsl:text>
+				<xsl:text>---&#xA;</xsl:text>
+				<xsl:apply-templates select="attribute" />
+				<xsl:text>---</xsl:text>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:text>&#xA;</xsl:text>
@@ -123,6 +128,15 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 			<xsl:text>)</xsl:text>
 		</xsl:if>
 		<xsl:apply-templates select="node"/>
+	</xsl:template>
+
+	<!-- Attribute template -->
+	<xsl:template match="attribute">
+		<!-- yaml wants lowercase field names -->
+		<xsl:variable name="lowercase" select="'abcdefghijklmnopqrstuvwxyz'" />
+		<xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" />
+		<xsl:value-of select="translate(@NAME, $uppercase, $lowercase)" />: '<xsl:value-of select="@VALUE" />'
+		<xsl:text>&#13;</xsl:text>
 	</xsl:template>
 
 </xsl:stylesheet> 
