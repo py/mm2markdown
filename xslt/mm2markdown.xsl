@@ -101,9 +101,12 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:choose>
 			<!-- Root node attributes create yaml block -->
 			<xsl:when test="count(ancestor::*) = 1">
-				<xsl:text>---&#xA;</xsl:text>
-				<xsl:apply-templates select="attribute" />
-				<xsl:text>---</xsl:text>
+				<!-- Only create yaml block if there are attributes -->
+				<xsl:if test="count(attribute) > 0">
+					<xsl:text>---&#xA;</xsl:text>
+					<xsl:apply-templates select="attribute" />
+					<xsl:text>---</xsl:text>
+				</xsl:if>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:text>&#xA;</xsl:text>
