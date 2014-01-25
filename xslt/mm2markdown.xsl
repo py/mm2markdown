@@ -76,6 +76,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:value-of select="translate(normalize-space(.),'&#160;',' ')" />
 	</xsl:template>
 
+	<!-- Text formatting conversion -->
 	<xsl:template match="p|br|tr|div|li|pre">
 		<xsl:if test="preceding-sibling::*">
 			<xsl:text>&#xA;</xsl:text>
@@ -93,6 +94,12 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:text> **</xsl:text>
 		<xsl:apply-templates/>
 		<xsl:text>** </xsl:text>		
+	</xsl:template>
+
+	<xsl:template match="strike">
+		<xsl:text> ~~</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>~~ </xsl:text>		
 	</xsl:template>
 
 	<xsl:template match="node">
