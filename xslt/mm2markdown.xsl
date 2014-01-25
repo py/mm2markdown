@@ -103,6 +103,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 			<xsl:when test="count(ancestor::*) = 1">
 				<!-- Only create yaml block if there are attributes -->
 				<xsl:if test="count(attribute) > 0">
+					<xsl:text>&#xA;</xsl:text>
 					<xsl:text>---&#xA;</xsl:text>
 					<xsl:apply-templates select="attribute" />
 					<xsl:text>---</xsl:text>
