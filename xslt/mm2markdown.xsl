@@ -62,13 +62,8 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 	</xsl:template>
 
 	<xsl:template match="richcontent">
-		<xsl:if test="@TYPE='DETAILS'">
-			<xsl:text>&#xA;DETAILS: </xsl:text>
-		</xsl:if>
-		<xsl:if test="@TYPE='NOTE'">
-			<xsl:text>&#xA;</xsl:text>
-		</xsl:if>
-		<xsl:apply-templates/>
+		<xsl:text>&#xA;</xsl:text>
+		<xsl:apply-templates />
 		<xsl:text>&#xA;</xsl:text>
 	</xsl:template>
 
@@ -95,6 +90,13 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:text>** </xsl:text>		
 	</xsl:template>
 
+	<!-- Pass table as raw html -->
+	<xsl:template match="table">
+		<!-- <xsl:copy /> -->
+		<xsl:copy-of select="." />
+		<!-- <xsl:apply-templates /> -->
+	</xsl:template>
+
 	<xsl:template match="node">
 		<xsl:variable name="thisid" select="@ID" />
 		<xsl:variable name="target" select="arrowlink/@DESTINATION" />
@@ -117,6 +119,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 			</xsl:otherwise>
 		</xsl:choose>
 		<xsl:text> </xsl:text>
+		<!-- Node text -->
 		<xsl:if test="@TEXT">
 			<xsl:value-of select="normalize-space(@TEXT)" />
 			<xsl:text>&#xA;</xsl:text>
