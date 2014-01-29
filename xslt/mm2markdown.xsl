@@ -37,7 +37,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:output method="text" indent="no"/>
+	<xsl:output method="html" indent="no"/>
 	<xsl:strip-space elements="map node" />
 	<xsl:key name="refid" match="node" use="@ID" />
 
@@ -71,6 +71,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:value-of select="translate(normalize-space(.),'&#160;',' ')" />
 	</xsl:template>
 
+	<!-- Insert newline for html breaks, paras, etc. -->
 	<xsl:template match="p|br|tr|div|li|pre">
 		<xsl:if test="preceding-sibling::*">
 			<xsl:text>&#xA;</xsl:text>
@@ -78,12 +79,14 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:apply-templates/>
 	</xsl:template>
 
+	<!-- Convert Italics to markdown syntax -->
 	<xsl:template match="i|em">
 		<xsl:text> *</xsl:text>
 		<xsl:apply-templates/>
 		<xsl:text>* </xsl:text>		
 	</xsl:template>
 
+	<!-- Convert Bold to markdown syntax -->
 	<xsl:template match="b|strong">
 		<xsl:text> **</xsl:text>
 		<xsl:apply-templates/>
@@ -92,9 +95,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 
 	<!-- Pass table as raw html -->
 	<xsl:template match="table">
-		<!-- <xsl:copy /> -->
-		<xsl:copy-of select="." />
-		<!-- <xsl:apply-templates /> -->
+		<xsl:copy-of select="." />	
 	</xsl:template>
 
 	<xsl:template match="node">
@@ -111,6 +112,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 					<xsl:text>---</xsl:text>
 				</xsl:if>
 			</xsl:when>
+		<!-- Create the headers from non-root node text using number signs -->
 			<xsl:otherwise>
 				<xsl:text>&#xA;</xsl:text>
 				<xsl:call-template name="numberSign">
