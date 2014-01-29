@@ -35,12 +35,12 @@ customize it while leaving the ancient authors mentioned. thank you
 ChangeLog: See: http://freeplane.sourceforge.net/
 -->
 
-<xsl:stylesheet version="1.0"
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="text" indent="no"/>
 	<xsl:strip-space elements="map node" />
 	<xsl:key name="refid" match="node" use="@ID" />
 
+	<!-- Template to print header #signs  -->
 	<xsl:template name="numberSign">
 		<xsl:param name="howMany">1</xsl:param>
 		<xsl:if test="$howMany &gt; 0">
@@ -53,6 +53,23 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		</xsl:if>
 	</xsl:template>
 
+	<!-- Template to print table header separator row  -->
+	<xsl:template name="tableHeaderDashes">
+		<xsl:param name="howManyCols">1</xsl:param>
+		<xsl:if test="$howManyCols &gt; 0">
+			<!-- Add left pipe and dashes to result tree. -->
+			<xsl:text>| ------ </xsl:text>
+			<!-- Print remaining ($howManyCols - 1) pipe dashes. -->
+			<xsl:call-template name="tableHeaderDashes">
+				<xsl:with-param name="howManyCols" select="$howManyCols - 1"/>
+			</xsl:call-template>
+		</xsl:if>
+		<xsl:if test="$howManyCols = 0">
+			<xsl:text>|</xsl:text>
+			<xsl:text>&#xA;</xsl:text>
+		</xsl:if>
+	</xsl:template>
+
 	<xsl:template match="/">
 		<xsl:apply-templates />
 	</xsl:template>
@@ -62,13 +79,8 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 	</xsl:template>
 
 	<xsl:template match="richcontent">
-		<xsl:if test="@TYPE='DETAILS'">
-			<xsl:text>&#xA;DETAILS: </xsl:text>
-		</xsl:if>
-		<xsl:if test="@TYPE='NOTE'">
-			<xsl:text>&#xA;</xsl:text>
-		</xsl:if>
-		<xsl:apply-templates/>
+		<xsl:text>&#xA;</xsl:text>
+		<xsl:apply-templates />
 		<xsl:text>&#xA;</xsl:text>
 	</xsl:template>
 
@@ -76,30 +88,59 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:value-of select="translate(normalize-space(.),'&#160;',' ')" />
 	</xsl:template>
 
-	<!-- Text formatting conversion -->
-	<xsl:template match="p|br|tr|div|li|pre">
+	<!-- Insert newline for html breaks, paras, etc. -->
+	<xsl:template match="p|br|div|li|pre">
 		<xsl:if test="preceding-sibling::*">
 			<xsl:text>&#xA;</xsl:text>
 		</xsl:if>
 		<xsl:apply-templates/>
 	</xsl:template>
 
+	<!-- Convert Italics to markdown syntax -->
 	<xsl:template match="i|em">
 		<xsl:text> *</xsl:text>
 		<xsl:apply-templates/>
 		<xsl:text>* </xsl:text>		
 	</xsl:template>
 
+	<!-- Convert Bold to markdown syntax -->
 	<xsl:template match="b|strong">
 		<xsl:text> **</xsl:text>
 		<xsl:apply-templates/>
 		<xsl:text>** </xsl:text>		
 	</xsl:template>
 
+	<!-- Strikethrough formatting -->
 	<xsl:template match="strike">
 		<xsl:text> ~~</xsl:text>
 		<xsl:apply-templates/>
 		<xsl:text>~~ </xsl:text>		
+	</xsl:template>
+
+	<!-- Convert <hr> to markdown horizontal rule -->
+	<xsl:template match="hr">
+		<xsl:text>*  *  *  *  *</xsl:text>
+	</xsl:template>
+
+	<!-- Convert html table to pandoc pipe table -->
+	<xsl:template match="table">
+		<xsl:text>&#xA;</xsl:text>
+		<xsl:apply-templates />
+	</xsl:template>
+
+	<xsl:template match="tr">
+		<xsl:if test="count(preceding-sibling::tr)=1">
+			<xsl:call-template name="tableHeaderDashes">
+				<xsl:with-param name="howManyCols" select="count(td)" />
+			</xsl:call-template>
+		</xsl:if>
+		<xsl:apply-templates />
+		<xsl:text>&#xA;</xsl:text>
+	</xsl:template>
+
+	<xsl:template match="td|th">
+		<xsl:text>| </xsl:text>
+		<xsl:apply-templates />
 	</xsl:template>
 
 	<xsl:template match="node">
@@ -116,6 +157,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 					<xsl:text>---</xsl:text>
 				</xsl:if>
 			</xsl:when>
+		<!-- Create the headers from non-root node text using number signs -->
 			<xsl:otherwise>
 				<xsl:text>&#xA;</xsl:text>
 				<xsl:call-template name="numberSign">
@@ -124,6 +166,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 			</xsl:otherwise>
 		</xsl:choose>
 		<xsl:text> </xsl:text>
+		<!-- Node text -->
 		<xsl:if test="@TEXT">
 			<xsl:value-of select="normalize-space(@TEXT)" />
 			<xsl:text>&#xA;</xsl:text>
@@ -149,5 +192,4 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:value-of select="translate(@NAME, $uppercase, $lowercase)" />: '<xsl:value-of select="@VALUE" />'
 		<xsl:text>&#13;</xsl:text>
 	</xsl:template>
-
 </xsl:stylesheet> 
