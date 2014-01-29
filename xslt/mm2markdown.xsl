@@ -37,10 +37,11 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:output method="html" indent="no"/>
+	<xsl:output method="text" indent="no"/>
 	<xsl:strip-space elements="map node" />
 	<xsl:key name="refid" match="node" use="@ID" />
 
+	<!-- Template to print header #signs  -->
 	<xsl:template name="numberSign">
 		<xsl:param name="howMany">1</xsl:param>
 		<xsl:if test="$howMany &gt; 0">
@@ -50,6 +51,23 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 			<xsl:call-template name="numberSign">
 				<xsl:with-param name="howMany" select="$howMany - 1"/>
 			</xsl:call-template>
+		</xsl:if>
+	</xsl:template>
+
+	<!-- Template to print table header separator row  -->
+	<xsl:template name="tableHeaderDashes">
+		<xsl:param name="howManyCols">1</xsl:param>
+		<xsl:if test="$howManyCols &gt; 0">
+			<!-- Add left pipe and dashes to result tree. -->
+			<xsl:text>| ------ </xsl:text>
+			<!-- Print remaining ($howManyCols - 1) pipe dashes. -->
+			<xsl:call-template name="tableHeaderDashes">
+				<xsl:with-param name="howManyCols" select="$howManyCols - 1"/>
+			</xsl:call-template>
+		</xsl:if>
+		<xsl:if test="$howManyCols = 0">
+			<xsl:text>|</xsl:text>
+			<xsl:text>&#xA;</xsl:text>
 		</xsl:if>
 	</xsl:template>
 
@@ -72,7 +90,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 	</xsl:template>
 
 	<!-- Insert newline for html breaks, paras, etc. -->
-	<xsl:template match="p|br|tr|div|li|pre">
+	<xsl:template match="p|br|div|li|pre">
 		<xsl:if test="preceding-sibling::*">
 			<xsl:text>&#xA;</xsl:text>
 		</xsl:if>
@@ -93,9 +111,31 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:text>** </xsl:text>		
 	</xsl:template>
 
-	<!-- Pass table as raw html -->
+	<!-- Convert <hr> to markdown horizontal rule -->
+	<xsl:template match="hr">
+		<xsl:text>*  *  *  *  *</xsl:text>
+	</xsl:template>
+
+	<!-- Convert html table to pandoc pipe table -->
 	<xsl:template match="table">
-		<xsl:copy-of select="." />	
+		<xsl:text>&#xA;</xsl:text>
+		<xsl:apply-templates />
+	</xsl:template>
+
+
+	<xsl:template match="tr">
+		<xsl:if test="count(preceding-sibling::tr)=1">
+			<xsl:call-template name="tableHeaderDashes">
+				<xsl:with-param name="howManyCols" select="count(td)" />
+			</xsl:call-template>
+		</xsl:if>
+		<xsl:apply-templates />
+		<xsl:text>&#xA;</xsl:text>
+	</xsl:template>
+
+	<xsl:template match="td|th">
+		<xsl:text>| </xsl:text>
+		<xsl:apply-templates />
 	</xsl:template>
 
 	<xsl:template match="node">
