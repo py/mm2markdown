@@ -4,7 +4,7 @@
 	
 MINDMAPEXPORTFILTER md;markdown Markdown
 
-v. 0.2
+v. 0.3
 		
 This code released under the GPL. : (http://www.gnu.org/copyleft/gpl.html) 
 Document : mm2markdown.xsl 
@@ -12,12 +12,12 @@ Created	on : 20 November, 2013
 Authors : Lee Hachadoorian Lee.Hachadoorian@gmail.com and Peter Yates pyates@gmail.com
 Description: Transforms freeplane mm to markdown md. 
 * Nodes become headings and subheadings, Notes become paragraphs. 
-*	Attributes of root node become document metadata. 
-*	Details are not handled. 
+* Attributes of root node become document metadata. 
+* Details are not handled. 
+* HTML tables are converted to Pandoc pipe table format.
 * Tested with Pandoc-flavored markdown.
 
 May not work:
-* Formatting which requires a specific number of spaces
 * Pandoc markdown style links/references
 
 Please test and suggest improvements to author, or feel free to customize
