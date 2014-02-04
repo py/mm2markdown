@@ -119,7 +119,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 
 	<!-- Convert <hr> to markdown horizontal rule -->
 	<xsl:template match="hr">
-		<xsl:text>*  *  *  *  *</xsl:text>
+		<xsl:text>&#xA;*  *  *  *  *&#xA;</xsl:text>
 	</xsl:template>
 
 	<!-- Convert html table to pandoc pipe table -->
@@ -135,7 +135,7 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 			</xsl:call-template>
 		</xsl:if>
 		<xsl:apply-templates />
-		<xsl:text>&#xA;</xsl:text>
+		<xsl:text> |&#xA;</xsl:text>
 	</xsl:template>
 
 	<xsl:template match="td|th">

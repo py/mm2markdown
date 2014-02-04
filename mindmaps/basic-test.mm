@@ -1,6 +1,6 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1387574258183" STYLE="bubble"><hook NAME="MapStyle">
+<node TEXT="" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1391553111285" STYLE="bubble"><hook NAME="MapStyle">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
@@ -51,11 +51,10 @@
 </map_styles>
 </hook>
 <attribute_layout NAME_WIDTH="38" VALUE_WIDTH="268"/>
-<attribute NAME="Title" VALUE="Mindmaps to Markdown: Flattening the Hierarchy"/>
-<attribute NAME="Author" VALUE="Charles Dickens"/>
-<attribute NAME="Date" VALUE="12/19/13" OBJECT="org.freeplane.features.format.FormattedDate|2013-12-19T00:00-0600|date"/>
-<node TEXT="Mindmaps" POSITION="right" ID="ID_1937520074" CREATED="1387129340614" MODIFIED="1387574273385">
-<node TEXT="Intro" ID="ID_607425089" CREATED="1387129351829" MODIFIED="1387574392151"><richcontent TYPE="NOTE">
+<attribute NAME="title" VALUE="Mindmaps to Markdown: Flattening the Hierarchy"/>
+<attribute NAME="author" VALUE="Peter Yates"/>
+<attribute NAME="date" VALUE="2/4/14" OBJECT="org.freeplane.features.format.FormattedDate|2014-02-04T00:00-0600|M/d/yy"/>
+<node TEXT="Installation" POSITION="right" ID="ID_1937520074" CREATED="1387129340614" MODIFIED="1391552226606"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -63,83 +62,19 @@
   </head>
   <body>
     <p>
-      Mindmaps are visual ways of representing concepts, information, and the relationships between them.
+      1. Download mm2markdown.xsl and put it in your `\freeplane\resources\xslt` folder.
     </p>
     <p>
-      
+      1. Restart freeplane
     </p>
     <p>
-      <i>Italics!</i>
-    </p>
-    <p>
-      <b>This is bold!</b>
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Some open source mindmapping tools:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      * Freeplane
-    </p>
-    <p>
-      * Freemind
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Let's order some numbers
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      1. One
-    </p>
-    <p>
-      1. Two
-    </p>
-    <p>
-      1. Three
+      1. Upon restart, verify that `Markdown (.markdown, .md)` appears as an option of the &quot;Files Types&quot; parameter within the File&gt;Export map dialog
     </p>
   </body>
 </html>
 
 </richcontent>
-</node>
-<node TEXT="Body" ID="ID_658584224" CREATED="1387129361269" MODIFIED="1387574438020"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis neque id ipsum fringilla tristique at non velit. Etiam eget eros eget tellus hendrerit lobortis. Curabitur at velit aliquam lacus dapibus vestibulum ac eget lorem. Quisque sed aliquam massa. Aliquam rhoncus neque at lorem ornare pharetra. Maecenas id elementum massa. Morbi pellentesque eros fringilla, pharetra sapien sed, egestas diam. Nullam volutpat convallis pretium. Nam convallis quam sed arcu lobortis consectetur. Praesent vel accumsan lectus, at vestibulum neque. Mauris sit amet elit non enim tristique semper.
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
-      Phasellus eu nisl ut massa blandit sollicitudin. Sed elementum, dui quis pulvinar mollis, sem odio semper risus, id interdum nibh quam nec dolor. Fusce consectetur fermentum tincidunt. Etiam eget leo mauris. Curabitur non consequat neque, vitae ultrices ligula. Donec sed justo congue, placerat turpis eget, malesuada magna. Aliquam erat volutpat. Vestibulum feugiat dui ut mauris ornare auctor. Nam dictum ullamcorper tempus. Integer at magna laoreet, sollicitudin neque et, porttitor mauris. Duis et orci rhoncus, adipiscing turpis vitae, fermentum tellus. Praesent vel ante sit amet lectus tempus adipiscing. Cras pharetra augue ac urna cursus placerat.
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
-      Integer venenatis sapien id sapien tempor, sit amet lacinia massa ultricies. Vestibulum sagittis fringilla libero, id consequat ante sodales id. Vivamus sem nisi, cursus et eros a, adipiscing fringilla nulla. Ut sagittis arcu nec felis dapibus mollis. Quisque ac tellus semper, rutrum diam id, iaculis lectus. Sed sit amet justo quis sem aliquam venenatis. Maecenas eget commodo ligula, a faucibus odio. Ut malesuada magna ligula, at auctor augue pharetra lacinia. In ut pharetra purus, non tempus dolor. Ut eleifend tellus nec lobortis luctus. Integer vestibulum faucibus nibh, ut ullamcorper leo cursus sed. Suspendisse vitae tortor sit amet massa semper dapibus. Sed eleifend arcu sit amet sapien cursus imperdiet. Vivamus cursus felis sed nunc convallis ultrices. Praesent faucibus sit amet leo ac bibendum.
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
-      Integer ac tincidunt lectus, sed mollis arcu. Aliquam ac erat posuere, convallis justo a, dictum massa. Etiam at lorem ante. Suspendisse lacus ligula, convallis sit amet iaculis ac, eleifend et est. In volutpat diam nisl, nec laoreet quam mattis nec. Etiam ac magna tempus, ullamcorper lorem vitae, pharetra velit. Nullam consequat pulvinar faucibus. Sed hendrerit imperdiet pharetra. In at laoreet neque, sed venenatis ligula. Aliquam eu ipsum at ligula malesuada laoreet. Vestibulum quis consequat urna, at posuere diam. Etiam eu magna velit. Etiam tempor velit lacus, at accumsan neque euismod vitae.
-    </p>
-    <p style="font-style: normal; letter-spacing: normal; margin-top: 0px; padding-left: 0px; padding-top: 0px; text-indent: 0px; margin-bottom: 14px; padding-bottom: 0px; font-size: 11px; text-align: justify; font-family: Arial, Helvetica, sans; padding-right: 0px; text-transform: none; white-space: normal; word-spacing: 0px; font-weight: normal; margin-left: 0px; color: rgb(0, 0, 0); font-variant: normal; margin-right: 0px; line-height: 14px">
-      Praesent et tortor posuere, pretium massa vitae, facilisis metus. Maecenas vestibulum diam at orci ultricies, id volutpat ligula eleifend. Curabitur eget consequat risus. Pellentesque viverra neque arcu, sed lobortis augue placerat eu. Curabitur ac magna sed lorem malesuada scelerisque. Vivamus dignissim, sapien sed elementum eleifend, tortor velit tempus metus, sed lacinia orci mauris ac ante. Pellentesque vulputate, velit eget vulputate ullamcorper, tellus nisi imperdiet sem, id malesuada ipsum odio pretium risus. Vestibulum a fermentum urna. Cras dapibus pellentesque dolor nec vestibulum. Etiam ut felis eget mauris vehicula vulputate. Mauris pellentesque iaculis luctus. In a nulla nunc. Cras eget lacus lorem. Aenean nunc lorem, tincidunt eget euismod at, pulvinar id est. Vivamus tempor nisi vel urna euismod mattis. In hac habitasse platea dictumst.
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="Conclusion" ID="ID_1603415883" CREATED="1387573162597" MODIFIED="1387574459893"><richcontent TYPE="NOTE">
+<richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -147,16 +82,16 @@
   </head>
   <body>
     <p>
-      <b>That</b>&#160;is <i>all</i>&#160;I have to say about <b>that</b>.
+      These are the node details. They should not be parsed.
     </p>
   </body>
 </html>
 
 </richcontent>
 </node>
-</node>
-<node TEXT="Markdown" POSITION="left" ID="ID_1501499118" CREATED="1387129340614" MODIFIED="1387574277082">
-<node TEXT="What is markdown?" ID="ID_81771131" CREATED="1387129351829" MODIFIED="1387574504112"><richcontent TYPE="NOTE">
+<node TEXT="Usage" POSITION="right" ID="ID_753793037" CREATED="1391551100419" MODIFIED="1391551102152">
+<node TEXT="Structuring your mindmap" ID="ID_933695004" CREATED="1391551481797" MODIFIED="1391551492614">
+<node TEXT="Document metadata" ID="ID_928092287" CREATED="1391551556625" MODIFIED="1391551872355"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -164,14 +99,26 @@
   </head>
   <body>
     <p>
-      Markdown is a lightweight syntax for quickly creating structured, formatted documents.
+      The root node should be left empty. Any attributes of the root node are placed into a YAML metadata block at the beginning of the document. Pandoc will process this and add it to the output document if supported. See the pandoc metadata documentation for more details.[^yaml]
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [^yaml]: http://johnmacfarlane.net/pandoc//demo/example19/YAML-metadata-block.html
     </p>
   </body>
 </html>
 
 </richcontent>
 </node>
-<node TEXT="Where is it used?" ID="ID_1501450355" CREATED="1387129361269" MODIFIED="1387574547219"><richcontent TYPE="NOTE">
+<node TEXT="Headers" ID="ID_92443048" CREATED="1391551561886" MODIFIED="1391552077869"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -179,26 +126,20 @@
   </head>
   <body>
     <p>
-      All over the place.
+      Node text is converted to document headers. The depth of the node determines the header level. Most markdown converters handle six levels of headers.
     </p>
     <p>
       
     </p>
     <p>
-      * Github
-    </p>
-    <p>
-      * Other places
-    </p>
-    <p>
-      * Watch out for different syntaxes for different versions
+      Header order is determined by a node's position off of the root node. Right side then left, top to bottom.
     </p>
   </body>
 </html>
 
 </richcontent>
 </node>
-<node TEXT="How do I use it?" ID="ID_47195846" CREATED="1387129363315" MODIFIED="1387574783788"><richcontent TYPE="NOTE">
+<node TEXT="Body text" ID="ID_1947198908" CREATED="1391551663525" MODIFIED="1391551992309"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -206,34 +147,798 @@
   </head>
   <body>
     <p>
-      You will most often write documents in markdown, and then either upload them somewhere to be parsed into formatted documents (e.g. Github), or use a tool like Pandoc to convert them to other document types. Pandoc can convert millions of document types to and from each other![^pandoc]
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      [^pandoc]: Slight exaggeration. See &lt;<a href="http://johnmacfarlane.net/pandoc/index.html">http://johnmacfarlane.net/pandoc/index.html</a>&gt;.
+      Node notes are converted to body text. Node details are ignored.
     </p>
   </body>
 </html>
 
 </richcontent>
 </node>
+</node>
+<node TEXT="Formatting" ID="ID_496180676" CREATED="1391550113183" MODIFIED="1391550115241">
+<node TEXT="Text" ID="ID_1653515363" CREATED="1391550117885" MODIFIED="1391552426668"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is <b>Bold </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This is <i>italic </i>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This is <strike>striken-through </strike>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <hr/>
+    
+
+    <p>
+      
+    </p>
+    <p>
+      This text should be separated from the text formatting above with an HR break.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Lists" ID="ID_1390752002" CREATED="1391550562551" MODIFIED="1391550673994"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      * This
+    </p>
+    <p>
+      * is
+    </p>
+    <p>
+      * part
+    </p>
+    <p>
+      * of
+    </p>
+    <p>
+      * an
+    </p>
+    <p>
+      * unordered
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;* list
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1. This
+    </p>
+    <p>
+      1. is
+    </p>
+    <p>
+      1. an
+    </p>
+    <p>
+      1. ordered
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;1. list
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Tables" ID="ID_1613219704" CREATED="1391550313245" MODIFIED="1391553003683"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      `LaTeX` puts tables wherever the hell it wants, so these may not align with their headers. See the table captions to distinguish.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Table: Complete" ID="ID_1314903355" CREATED="1391550317839" MODIFIED="1391552681228"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="border-bottom-width: 100%; border-left-width: 100%; border-right-width: 100%; border-top-width: 100%">
+      <div style="margin-top: 0in; margin-left: 0in; width: 4.593in">
+        <div style="margin-top: 0in; margin-left: 0in; width: 4.593in">
+          <div>
+            <table border="1" style="border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-top-width: 1pt; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; border-left-color: #A3A3A3; border-right-width: 1pt" cellpadding="0" cellspacing="0" valign="top">
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; color: black; margin-bottom: 0in; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Sepal.Length
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Sepal.Width
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Petal.Length
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Petal.Width
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Species
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    5.1
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.9
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.7
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.3
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.6
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.1
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.6
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    5.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.9
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.7
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.6
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.3
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    2.9
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.9
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.1
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.1
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      : Completely filled table
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Table: Empty cells" ID="ID_893679652" CREATED="1391550317839" MODIFIED="1391552844363"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="border-bottom-width: 100%; border-left-width: 100%; border-right-width: 100%; border-top-width: 100%">
+      <div style="margin-top: 0in; margin-left: 0in; width: 4.593in">
+        <div style="margin-top: 0in; margin-left: 0in; width: 4.593in">
+          <div>
+            <table border="1" style="border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-top-width: 1pt; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; border-left-color: #A3A3A3; border-right-width: 1pt" cellpadding="0" cellspacing="0" valign="top">
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; color: black; margin-bottom: 0in; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Sepal.Length
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Sepal.Width
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Petal.Length
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Petal.Width
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    Species
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    5.1
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.9
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.7
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.3
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.6
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.1
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.6
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    5.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.9
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.7
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    4.6
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.3
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    3.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.5
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    2.9
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    1.4
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    0.2
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    setosa
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: 1.0187in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9777in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9979in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .9569in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; text-align: right; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+                <td style="vertical-align: top; padding-right: 3.0pt; border-right-color: #A3A3A3; border-top-color: #A3A3A3; border-bottom-width: 1pt; border-bottom-style: solid; padding-left: 3.0pt; border-left-width: 1pt; border-top-width: 1pt; width: .6395in; border-left-style: solid; border-top-style: solid; border-right-style: solid; border-bottom-color: #A3A3A3; padding-bottom: 2.0pt; border-left-color: #A3A3A3; border-right-width: 1pt; padding-top: 2.0pt">
+                  <p style="margin-top: 0in; margin-bottom: 0in; color: black; font-size: 11.0pt; margin-left: 0in; font-family: Calibri; margin-right: 0in">
+                    
+                  </p>
+                </td>
+              </tr>
+            </table>
+            <p>
+              
+            </p>
+            <p>
+              : Table containing empty cells
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Markdown" POSITION="left" ID="ID_47195846" CREATED="1387129363315" MODIFIED="1391550825920"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This xsl file was tested with pandoc markdown.[^pandoc] A footnote with a link to additional information should appear somewhere on this page.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [^pandoc]: See &lt;<a href="http://johnmacfarlane.net/pandoc/index.html">http://johnmacfarlane.net/pandoc/index.html</a>&gt;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </map>
