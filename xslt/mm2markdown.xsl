@@ -117,6 +117,20 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:text>~~ </xsl:text>		
 	</xsl:template>
 
+	<!-- Subscript formatting -->
+	<xsl:template match="sub">
+		<xsl:text> ~</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>~ </xsl:text>		
+	</xsl:template>
+
+	<!-- Superscript formatting -->
+	<xsl:template match="sup">
+		<xsl:text> ^</xsl:text>
+		<xsl:apply-templates/>
+		<xsl:text>^ </xsl:text>		
+	</xsl:template>
+
 	<!-- Convert <hr> to markdown horizontal rule -->
 	<xsl:template match="hr">
 		<xsl:text>&#xA;*  *  *  *  *&#xA;</xsl:text>
