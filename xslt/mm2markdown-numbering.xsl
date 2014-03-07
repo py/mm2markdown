@@ -7,6 +7,15 @@ MINDMAPEXPORTFILTER md;markdown Markdown with numbering
 v. 0.3
 		
 This code released under the GPL. : (http://www.gnu.org/copyleft/gpl.html) 
+
+Document : mm2markdown-numbering.xsl 
+Created	on : 07 March, 2014
+Authors : Alfred Sawatzky  alfred.sawatzky@gmail.com
+Description: Transforms freeplane mm to markdown md and numbers the headings.
+
+******************************************************************************
+Based on mm2markdown.xsl, original notice appears below
+******************************************************************************
 Document : mm2markdown.xsl 
 Created	on : 20 November, 2013 
 Authors : Lee Hachadoorian Lee.Hachadoorian@gmail.com and Peter Yates pyates@gmail.com
