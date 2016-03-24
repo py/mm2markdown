@@ -72,7 +72,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -86,7 +85,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Usage" POSITION="right" ID="ID_753793037" CREATED="1391551100419" MODIFIED="1391551102152">
@@ -115,7 +113,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Headers" ID="ID_92443048" CREATED="1391551561886" MODIFIED="1391552077869"><richcontent TYPE="NOTE">
@@ -136,7 +133,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Body text" ID="ID_1947198908" CREATED="1391551663525" MODIFIED="1391551992309"><richcontent TYPE="NOTE">
@@ -151,12 +147,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="Formatting" ID="ID_496180676" CREATED="1391550113183" MODIFIED="1391550115241">
-<node TEXT="Text" ID="ID_1653515363" CREATED="1391550117885" MODIFIED="1391552426668"><richcontent TYPE="NOTE">
+<node TEXT="Text" ID="ID_1653515363" CREATED="1391550117885" MODIFIED="1391731501775"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -182,6 +177,15 @@
       
     </p>
     <p>
+      This is <sup>superscript</sup>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      This is <sub>subscript</sub>
+    </p>
+    <p>
       
     </p>
     <hr/>
@@ -195,7 +199,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Lists" ID="ID_1390752002" CREATED="1391550562551" MODIFIED="1391550673994"><richcontent TYPE="NOTE">
@@ -249,7 +252,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Tables" ID="ID_1613219704" CREATED="1391550313245" MODIFIED="1391553003683"><richcontent TYPE="NOTE">
@@ -264,7 +266,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Table: Complete" ID="ID_1314903355" CREATED="1391550317839" MODIFIED="1391552681228"><richcontent TYPE="NOTE">
 
@@ -588,7 +589,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Table: Empty cells" ID="ID_893679652" CREATED="1391550317839" MODIFIED="1391552844363"><richcontent TYPE="NOTE">
@@ -913,10 +913,25 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="Image" ID="ID_870190117" CREATED="1393810268517" MODIFIED="1393810967859"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      This is the new Freeplane logo
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="freeplane-logo-2014.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="Markdown" POSITION="left" ID="ID_47195846" CREATED="1387129363315" MODIFIED="1391550825920"><richcontent TYPE="NOTE">
@@ -937,8 +952,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+</node>
+<node TEXT="Testing new things" POSITION="left" ID="ID_1350458514" CREATED="1391731511654" MODIFIED="1391731559113">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_47195846" SOURCE_LABEL="Source label" TARGET_LABEL="target label" MIDDLE_LABEL="Middle label" STARTINCLINATION="503;-25;" ENDINCLINATION="451;-87;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </map>
