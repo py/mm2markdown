@@ -188,12 +188,15 @@ ChangeLog: See: http://freeplane.sourceforge.net/
 		<xsl:apply-templates select="richcontent[@TYPE='NODE']"/>
 		<xsl:apply-templates select="richcontent[@TYPE='DETAILS']"/>
 		<xsl:apply-templates select="richcontent[@TYPE='NOTE']"/>
+		<!-- Convert arrow links between nodes to reference and internal doc link -->
 		<xsl:if test="arrowlink/@DESTINATION != ''">
-			<xsl:text> (see:</xsl:text>
+			<xsl:text> See: </xsl:text>
 			<xsl:for-each select="key('refid', $target)">
+				<xsl:text>[</xsl:text>
 				<xsl:value-of select="@TEXT" />
+				<xsl:text>]</xsl:text>
 			</xsl:for-each>
-			<xsl:text>)</xsl:text>
+			<xsl:text>&#xA;</xsl:text>
 		</xsl:if>
 		<xsl:apply-templates select="node"/>
 	</xsl:template>
